@@ -1,0 +1,47 @@
+body{
+	text-align: center;
+}
+
+header, section, footer, aside, nav, article {
+	display: block;
+}
+
+#skin{
+	/*this needs to be wider than video*/
+	width: 700px;
+	margin: 10px auto;
+	padding: 5px;
+	background: #95a5a6;
+	border: 2px solid #7f8c8d;
+	border-radius: 5px;
+
+}
+
+nav {
+	margin: 5px 0px;
+}
+
+#buttons{
+	float: left;
+	width: 75px;
+	height: 25px;
+}
+
+#defaultBar{
+	position: relative;
+	float: left;
+	width: 600px;
+	height: 8px;
+	padding: 2px 2px 8px 2px;
+	border: 2px solid rgba(255,0,255,.4);
+	background: #95a5a5;
+}
+
+#progressBar{
+	position: absolute;
+	width: 0px;
+	height: 16px;
+	background: #bdc3c7;
+}
+
+
